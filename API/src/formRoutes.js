@@ -40,7 +40,10 @@ router.post('/contact_form/entries', async (req, res) => {
 
 //get contact entries with correct token verification
 router.get('/contact_form/entries', async (req, res) => {
-    res.send(await dataHandler.getAll(dataHandler.formPath))
+    let sql = 'SELECT * FROM contacts'
+    let sqlString = toString(sql)
+    let contactData = await db.query(sqlString)
+    res.send(await dataHandler.getAll(contactData))
 })
 
 //searching by id functionality
