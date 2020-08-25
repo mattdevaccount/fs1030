@@ -1,0 +1,51 @@
+$mint: #78cce2;
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 10vh;
+    background: #393e46;
+    color: $mint;
+  }
+  
+.nav-links {
+    width: 380px;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    background: none;
+    border: 2px transparent solid;
+    margin: 10px;
+    transition: all .5s ease;
+      :hover {
+        background-color: transparent;
+        border: 1px $mint solid;
+        border-radius: 20px;
+        width: 100px;
+        height: 25px;
+        transition: all .6s ease;
+      }
+      :active {
+        color: white;
+        background-color: $mint;
+      }
+      :visited {
+        color: $mint;
+      }  
+    }
+
+.logo {
+  display: flex;
+  width: 165px;
+  margin: -10px;
+}
+
+.onPage {
+  background-color: transparent;
+  border: 1px $mint solid;
+  border-radius: 20px;
+  width: 100px;
+  height: 25px;
+  transition: all .6s ease;
+}

@@ -1,0 +1,66 @@
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 10vh;
+  background: #393e46;
+  color: #78cce2;
+}
+
+.nav-links {
+  width: 380px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  list-style: none;
+  background: none;
+  border: 2px transparent solid;
+  margin: 10px;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+.nav-links :hover {
+  background-color: transparent;
+  border: 1px #78cce2 solid;
+  border-radius: 20px;
+  width: 100px;
+  height: 25px;
+  -webkit-transition: all .6s ease;
+  transition: all .6s ease;
+}
+
+.nav-links :active {
+  color: white;
+  background-color: #78cce2;
+}
+
+.nav-links :visited {
+  color: #78cce2;
+}
+
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 165px;
+  margin: -10px;
+}
+
+.onPage {
+  background-color: transparent;
+  border: 1px #78cce2 solid;
+  border-radius: 20px;
+  width: 100px;
+  height: 25px;
+  -webkit-transition: all .6s ease;
+  transition: all .6s ease;
+}
+/*# sourceMappingURL=navStyle.css.map */

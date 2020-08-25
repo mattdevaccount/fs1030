@@ -1,0 +1,26 @@
+$mint: #78cce2;
+
+footer {
+    background-color: #393e46;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    padding: 10px;
+    padding-bottom: 10px;
+
+}
+
+img {
+    width: 20px;
+}
+
+.socialMedia {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    :hover {
+        filter: invert(84%) sepia(42%) saturate(1814%) hue-rotate(185deg) brightness(94%) contrast(70%);
+        transition: transform ease-out .2s;
+        transform: scale(1.4);
+    }
+}

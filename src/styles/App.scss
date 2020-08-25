@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+$mint: #78cce2;
+
+.App {
+    text-align: center; 
+  }
+
+body {
+  color: $mint;
+  background-color: #222831;
+  //background-image: url(../images/greenspace.jpg);  original background, too much going on, keep it simple first
+  font-family: 'Orbitron', sans-serif;
+  margin: auto;
+  }
+
+  h1 {
+    font-family: 'Orbitron', sans-serif;
+  }
+

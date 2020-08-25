@@ -1,0 +1,23 @@
+$mint: #78cce2;
+
+.formText {
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 50px;
+    max-width: 100%;
+    justify-content: space-around;
+}
+
+button {
+    margin-top: 20px;
+    width: 150px;
+    justify-content: space-around;
+    background: none;
+    border-radius: 15px;
+    border: 1px $mint solid;
+    margin: 10px;
+    transition: all .5s ease;
+    color: $mint;
+    font-family: 'Orbitron', sans-serif;
+    transition: all .5s ease;
+}

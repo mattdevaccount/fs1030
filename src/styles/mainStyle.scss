@@ -1,0 +1,78 @@
+body {
+  font-size: 17px;
+}
+
+.intro {
+  margin: 10%;
+  background-color: #eeeeee;
+  border: 1px solid black;
+  opacity: 0.5;
+  color: #222831;
+  animation: fadeIn 3s linear;
+}
+
+.introText {
+  margin-top: 15px;
+}
+
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 0.5;}
+}
+
+.replaced::after {
+  content: '';
+  animation: spin 10s linear infinite;
+}
+
+@keyframes spin {
+  0% { content: ' a big sci fi geek'; }
+  16% { content: ' an animal lover'; }
+  32% { content: ' a sports fan'; }
+  48% { content: ' a huge TV nerd'; }
+  64% { content: ' a metalhead'; }
+  80% { content: ' an avid reader';}
+  100% { content: ' a big sci fi geek'; }
+}
+
+.typewriter {
+    overflow: hidden; 
+    white-space: nowrap;
+    margin: 0 auto; 
+    letter-spacing: .10em;
+    animation: 
+      typing 3.5s steps(40, end),
+  }
+  
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+
+.avatar {
+  width: 33%;
+}
+
+.moreAbout {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  align-content: center;
+}
+
+.moreText {
+  width: 800px;
+  padding-top: 7%;
+}
+
+.logos {
+  width: 150px;
+}
+
+.reactLogo {
+  width: 55px;
+}
+
+.nodeLogo {
+  width: 65px;
+}

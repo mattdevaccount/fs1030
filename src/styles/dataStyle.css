@@ -1,0 +1,13 @@
+.mainList {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    max-width: 35%;
+}
+
+.contactDude {
+    display: flex;
+    flex-direction: column;
+    border: 1px #78cce2 solid;
+    list-style-type: none;
+}
